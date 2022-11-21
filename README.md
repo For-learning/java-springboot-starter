@@ -7,3 +7,6 @@
 - 如何记录日志（AOP）
 - 如何配置全局通用异常处理
 - 如何配置定时任务
+
+## 参考链接
+[1] imooc-springboot-starter: https://github.com/leechenxiang/imooc-springboot-starter
