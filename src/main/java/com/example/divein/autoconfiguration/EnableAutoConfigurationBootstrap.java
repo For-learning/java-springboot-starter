@@ -15,6 +15,9 @@ public class EnableAutoConfigurationBootstrap {
         String helloWorld = context.getBean("helloWorld", String.class);
         System.out.println(helloWorld);
 
+        String helloWorldAgain = context.getBean("helloWorldAgain", String.class);
+        System.out.println(helloWorldAgain);
+
         context.close();
     }
 }

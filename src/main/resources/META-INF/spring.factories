@@ -1,0 +1,10 @@
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.example.divein.lifecycle.context.HelloWorldApplicationContextInitializer
+
+# Application Listeners
+#org.springframework.context.ApplicationListener=\
+#org.springframework.boot.autoconfigure.BackgroundPreinitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.example.divein.autoconfiguration.HelloWorldAutoConfiguration

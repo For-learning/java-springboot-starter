@@ -10,7 +10,7 @@ public class ConditionBootstrap {
     public static void main(String[] args) {
         ConfigurableApplicationContext context = new SpringApplicationBuilder(ConditionBootstrap.class)
                 .web(WebApplicationType.NONE) // 声明是一个非 web 程序
-                .profiles("Java8")
+                .profiles("Java8") // 定义 profiles 参数，来指定“条件装配”的条件
                 .run(args);
 
         CalculateSrv bean = context.getBean(CalculateSrv.class);
